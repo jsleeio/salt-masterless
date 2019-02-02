@@ -1,0 +1,2 @@
+# see https://www.debian.org/security/2019/dsa-4371
+Acquire::http::AllowRedirect "false";

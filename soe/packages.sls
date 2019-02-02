@@ -1,0 +1,23 @@
+packages:
+  pkg.installed:
+    - pkgs:
+      - apt-transport-https
+      - binutils
+      - bootstrap-vz
+      - ca-certificates
+      - curl
+      - debootstrap
+      - dnsutils
+      - gcc
+      - gnupg2
+      - htop
+      - linux-headers-{{grains['osarch']}}
+      - ltrace
+      - make
+      - net-tools
+      - python-apt
+      - software-properties-common
+      - strace
+      - sudo
+      - texinfo
+      - tmux
