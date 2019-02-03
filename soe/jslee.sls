@@ -7,6 +7,4 @@ jslee_user:
   user.present:
     - name: jslee
     - uid: 1000
-    - gid: 503
-    - groups:
-      - admins 
+    - gid: jslee
