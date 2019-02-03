@@ -1,6 +1,7 @@
 packages:
   pkg.installed:
     - pkgs:
+      - ack
       - apt-transport-https
       - binutils
       - bootstrap-vz
@@ -10,7 +11,9 @@ packages:
       - dnsutils
       - gcc
       - gnupg2
+      - groff
       - htop
+      - info
       - linux-headers-{{grains['osarch']}}
       - ltrace
       - make
@@ -20,4 +23,5 @@ packages:
       - strace
       - sudo
       - texinfo
+      - tig
       - tmux
